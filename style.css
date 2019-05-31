@@ -6,9 +6,10 @@ body {
   background-image: url("immagini/sfondo.jpg");
 }
 main {
-  width: 1000px;
-  margin-left: 430px;
-  margin-right: 430px;
+  width: 53%;
+  /* margin-left: 430px;
+  margin-right: 430px; */
+  margin: auto;
   height: 100%;
 }
 header {
