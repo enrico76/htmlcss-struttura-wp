@@ -24,31 +24,40 @@ nav {
   height: 45px;
 }
 .box1 {
-  width: 76%;
+  width: 25%;
   margin-top: 10px;
   float: left;
 }
+.boxcenter {
+  float: left;
+  width: 45%;
+  margin-top: 10px;
+  margin-left: 5%;
+
+}
 .sinistra {
   float: left;
-  width: 25%;
+  width: 100%;
   height: 645px;
   background-color: white;
 }
 section {
-  float: right;
+  float: left;
   background-color: white;
-  width: 70%;
+  width: 100%;
   height: 365px;
 }
 .box2 {
-  float: right;
+  float: left;
   width: 20%;
   margin-top: 10px;
+  margin-left: 5%;
 
 }
 .destra {
-  float: right;
+  float: left;
   width: 100%;
+
   background-color: white;
   height: 380px;
 }
@@ -72,6 +81,11 @@ section {
   clear: both;
 }
 .box2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.boxcenter::after {
   content: "";
   display: table;
   clear: both;
